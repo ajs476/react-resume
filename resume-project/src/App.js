@@ -1,10 +1,10 @@
 import React from 'react';
 
-const App = () => (<div>
-  <body>
-    <section classNameName="container">
+const App = () => (
+  <div>
+    <section className="container">
       <section id="left-side">
-        <div classNameName="heading">
+        <div className="heading">
           <h2>
             <i className="fas fa-user-circle"></i>Career Profile</h2>
         </div>
@@ -96,10 +96,9 @@ const App = () => (<div>
           <h4>Glendale Community College</h4>
           <h4>2010-2012</h4>
         </section>
-
       </section>
     </section>
-  </body>
-</div>);
+</div>
+);
 
 export default App;
