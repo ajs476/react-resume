@@ -21,5 +21,6 @@ module.exports = {
     "import/no-duplicates": 0,
     "import/first": 0,
     "prefer-destructuring": 0,
+    "max-len": 0
   }
 };
