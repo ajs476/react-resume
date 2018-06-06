@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 const App = () => (
   <div>
     <section className="container">
-      <section id="left-side">
+      <section className="left-side">
         <div className="heading">
           <h2>
             <i className="fas fa-user-circle"></i>Career Profile</h2>
@@ -56,14 +57,14 @@ const App = () => (
           </p>
         </section>
       </section>
-      <section id="right-side">
+      <section className="right-side">
         <h2 hidden="hidden">Personal Information</h2>
-        <section id="personal-info">
+        <section className="personal-info">
           <img src="https://avatars0.githubusercontent.com/u/10605678?s=460&v=4" alt="image of Alex Sears"></img>
           <h2>Alex Sears</h2>
           <h3>Apprentice Web Developer</h3>
         </section>
-        <section id="contact-info">
+        <section className="contact-info">
           <h3>
             <i className="fas fa-envelope"></i>
             <a href="mailto:ajs476@nau.edu">ajs476@nau.edu</a>
@@ -87,7 +88,7 @@ const App = () => (
             <a href="https://www.twitter.com">@twittername</a>
           </h3>
         </section>
-        <section id="education-info">
+        <section className="education-info">
           <header>Education</header>
           <h3>BSc in Applied Computer Science</h3>
           <h4>Northern Arizona University</h4>
