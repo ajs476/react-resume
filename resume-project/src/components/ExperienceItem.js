@@ -1,22 +1,22 @@
 import React from 'react';
 
 
-const ExperienceItem = (props) => (
+const ExperienceItem = ({title, company, city, startDate, endDate, description}) => (
   <div>
     <section className="experience-heading">
       <h2 hidden="hidden">Experience Information</h2>
       <div className="exp-position-location">
-        <h3>{props.title}</h3>
-        <h4>{props.company}, {props.city}</h4>
+        <h3>{title}</h3>
+        <h4>{company}, {city}</h4>
       </div>
       <div className="exp-date">
-        <h4>{props.startDate} - {props.endDate}</h4>
+        <h4>{startDate} - {endDate}</h4>
       </div>
     </section>
     <section className="content">
-      <h2 hidden="hidden">{props.title} Experience Information</h2>
+      <h2 hidden="hidden">{title} Experience Information</h2>
       <p>
-        {props.description}
+        {description}
       </p>
     </section>
   </div>

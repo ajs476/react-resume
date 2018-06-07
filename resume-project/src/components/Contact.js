@@ -5,12 +5,12 @@ import contactData from '../data/contact-data.json';
 const Contact = () => (
   <section className="contact-info">
     {
-      contactData.map((contactObject, i) =>
+      contactData.map(({iconName, linkAction, linkTarget, linkName}, i) =>
       <ContactItem
-        iconName={contactObject.iconName}
-        linkAction={contactObject.linkAction}
-        linkTarget={contactObject.linkTarget}
-        linkName={contactObject.linkName}
+        iconName={iconName}
+        linkAction={linkAction}
+        linkTarget={linkTarget}
+        linkName={linkName}
         key={i}
         >
       </ContactItem>)

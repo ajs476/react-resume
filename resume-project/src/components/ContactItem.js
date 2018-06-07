@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ContactItem = (props) => (
+const ContactItem = ({iconName, linkAction, linkTarget, linkName}) => (
   <h3>
-    <i className={`${props.iconName}`}></i>
-    <a href={`${props.linkAction}${props.linkTarget}`}>{props.linkName}</a>
+    <i className={`${iconName}`}></i>
+    <a href={`${linkAction}${linkTarget}`}>{linkName}</a>
   </h3>
 );
 

@@ -10,14 +10,14 @@ const Experience = () => (
       </h2>
     </div>
     {
-      experienceData.map((experienceObject, i) =>
+      experienceData.map(({title, company, city, startDate, endDate, description}, i) =>
       <ExperienceItem
-        title={experienceObject.title}
-        company={experienceObject.company}
-        city={experienceObject.city}
-        startDate={experienceObject.startDate}
-        endDate={experienceObject.endDate}
-        description={experienceObject.description}
+        title={title}
+        company={company}
+        city={city}
+        startDate={startDate}
+        endDate={endDate}
+        description={description}
         key={i}
         >
       </ExperienceItem>)
