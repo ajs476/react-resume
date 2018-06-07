@@ -21,4 +21,4 @@ const Experience = (props) => (
   </div>
 );
 
-export {Experience};
+export default Experience;

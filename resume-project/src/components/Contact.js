@@ -27,4 +27,4 @@ const Contact = () => (
   </section>
 );
 
-export {Contact};
+export default Contact;

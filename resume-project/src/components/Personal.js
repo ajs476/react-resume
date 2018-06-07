@@ -11,4 +11,4 @@ const Personal = () => (
   </div>
 );
 
-export {Personal};
+export default Personal;

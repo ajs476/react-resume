@@ -12,4 +12,4 @@ const Education = () => (
   </section>
 );
 
-export {Education};
+export default Education;

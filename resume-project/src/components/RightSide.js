@@ -1,7 +1,7 @@
 import React from 'react';
-import {Personal} from './Personal.js';
-import {Contact} from './Contact.js';
-import {Education} from './Education.js';
+import Personal from './Personal.js';
+import Contact from './Contact.js';
+import Education from './Education.js';
 
 const RightSide = () => (
   <section className="right-side">
@@ -11,4 +11,4 @@ const RightSide = () => (
   </section>
 );
 
-export {RightSide};
+export default RightSide;

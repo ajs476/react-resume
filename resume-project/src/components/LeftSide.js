@@ -1,6 +1,6 @@
 import React from 'react';
-import {Career} from './Career.js';
-import {Experience} from './Experience.js';
+import Career from './Career.js';
+import Experience from './Experience.js';
 
 const LeftSide = () => (
   <section className="left-side">
@@ -34,4 +34,4 @@ const LeftSide = () => (
   </section>
 );
 
-export {LeftSide};
+export default LeftSide;
