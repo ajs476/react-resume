@@ -1,0 +1,26 @@
+[
+  {
+            "iconName":"fas fa-envelope",
+            "linkAction":"mailto:",
+            "linkTarget":"ajs476@nau.edu",
+            "linkName":"ajs476@nau.edu"
+  },
+  {
+          "iconName":"fas fa-phone",
+          "linkAction":"tel:",
+          "linkTarget":"6025555555",
+          "linkName":"602-555-5555"
+  },
+  {
+          "iconName":"fab fa-linkedin-in",
+          "linkAction":"",
+          "linkTarget":"https://linkedin.com",
+          "linkName":"linkedIn"
+  },
+  {
+          "iconName":"fab fa-github",
+          "linkAction":"",
+          "linkTarget":"https://github.com/ajs476",
+          "linkName":"Github"
+  }
+]

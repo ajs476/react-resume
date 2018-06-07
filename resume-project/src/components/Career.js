@@ -1,5 +1,5 @@
 import React from 'react';
-import CareerData from '../data/career-data.json';
+import careerData from '../data/career-data.json';
 
 const Career = () => (
   <div>
@@ -10,7 +10,7 @@ const Career = () => (
     <section className="content">
       <h2 hidden="hidden">Career Information</h2>
       <p>
-        {CareerData.description}
+        {careerData.description}
       </p>
     </section>
   </div>
