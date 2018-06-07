@@ -1,9 +1,9 @@
 [
   {
-            "iconName":"fas fa-envelope",
-            "linkAction":"mailto:",
-            "linkTarget":"ajs476@nau.edu",
-            "linkName":"ajs476@nau.edu"
+          "iconName":"fas fa-envelope",
+          "linkAction":"mailto:",
+          "linkTarget":"ajs476@nau.edu",
+          "linkName":"ajs476@nau.edu"
   },
   {
           "iconName":"fas fa-phone",

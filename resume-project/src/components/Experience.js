@@ -1,23 +1,22 @@
 import React from 'react';
+import ExperienceItem from './ExperienceItem.js';
+import experienceData from '../data/experience-data.json';
 
-const Experience = (props) => (
+const Experience = () => (
   <div>
-    <section className="experience-heading">
-      <h2 hidden="hidden">Experience Information</h2>
-      <div className="exp-position-location">
-        <h3>{props.title}</h3>
-        <h4>{props.company}, {props.city}</h4>
-      </div>
-      <div className="exp-date">
-        <h4>{props.startDate} - {props.endDate}</h4>
-      </div>
-    </section>
-    <section className="content">
-      <h2 hidden="hidden">{props.title} Experience Information</h2>
-      <p>
-        {props.description}
-      </p>
-    </section>
+  {
+    experienceData.map((experienceObject, i) =>
+    <ExperienceItem
+      title={experienceObject.title}
+      company={experienceObject.company}
+      city={experienceObject.city}
+      startDate={experienceObject.startDate}
+      endDate={experienceObject.endDate}
+      description={experienceObject.description}
+      key={i}
+      >
+    </ExperienceItem>)
+  }
   </div>
 );
 
