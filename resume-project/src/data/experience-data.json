@@ -1,0 +1,18 @@
+[
+  {
+      "title":"Apprentice Web Developer",
+      "company":"Moove-it",
+      "city":"Austin",
+      "startDate":"2018",
+      "endDate":"Present",
+      "description":"As an apprentice web developer at Moove-it, I am primarily focused on web development using JavaScript. I have also gained a ton of hands on experience in a short period of time with using Git. Currently I am learning how to build web apps using React, which is proving to actually be quite fun. My goal is to learn enough, fast enough, to be hired on as a full time web developer with Moove-it."
+  },
+  {
+      "title":"Android Developer",
+      "company":"Freelance",
+      "city":"Phoenix",
+      "startDate":"2017",
+      "endDate":"2018",
+      "description":"After graduating from University I began working on a few of my own projects, focusing on android application development. Using Java, I designed, developed, and published a few mobile apps to the Google Play Store. My most recent project is 'Pazaak Cantina - The Card Game' a Star Wars themed card game. Pazaak Cantina currently has about one-thousand users and an overall rating of 4.6/5. I learned a lot about mobile development while working on my applications, and I believe I became a more well-rounded developer at the end of it all."
+  }
+]
