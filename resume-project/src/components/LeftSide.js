@@ -3,7 +3,6 @@ import {Career} from './Career.js';
 import {Experience} from './Experience.js';
 
 const LeftSide = () => (
-  <div>
   <section className="left-side">
     <Career />
     <div className="heading">
@@ -33,7 +32,6 @@ const LeftSide = () => (
       >
     </Experience>
   </section>
-</div>
 );
 
 export {LeftSide};
