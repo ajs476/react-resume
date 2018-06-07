@@ -4,12 +4,10 @@ import {RightSide} from './components/RightSide.js';
 
 
 const App = () => (
-  <div>
-    <section className="container">
-      <LeftSide />
-      <RightSide />
-    </section>
-</div>
+  <section className="container">
+    <LeftSide />
+    <RightSide />
+  </section>
 );
 
 export default App;
