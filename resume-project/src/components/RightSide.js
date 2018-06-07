@@ -1,15 +1,10 @@
 import React from 'react';
-//import {} from './.js';
+import {Personal} from './Personal.js';
 //import {} from './.js';
 
 const RightSide = () => (
   <section className="right-side">
-    <h2 hidden="hidden">Personal Information</h2>
-    <section className="personal-info">
-      <img src="https://avatars0.githubusercontent.com/u/10605678?s=460&v=4" alt="image of Alex Sears"></img>
-      <h2>Alex Sears</h2>
-      <h3>Apprentice Web Developer</h3>
-    </section>
+    <Personal />
     <section className="contact-info">
       <h3>
         <i className="fas fa-envelope"></i>
